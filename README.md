@@ -1,6 +1,5 @@
 # SIP TRUNK Interconnection Parameter 
-![image](https://user-images.githubusercontent.com/116668420/197835685-7cbeb61b-7b35-4a19-b1a1-9d095576a0f0.png)
-
+<img width="828" alt="Screen Shot 2022-10-27 at 11 48 55 PM" src="https://user-images.githubusercontent.com/116668420/198351169-4662a972-2edd-4c4a-b610-29b830c96f82.png">
 # Getting Started with siskom Voice API
 
 ## Introduction
