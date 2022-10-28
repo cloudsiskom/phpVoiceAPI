@@ -302,5 +302,5 @@ class SiskomVoiceAPIClient implements ConfigurationInterface
      *
      * @var array
      */
-    private const ENVIRONMENT_MAP = [Environment::PRODUCTION => [Server::SERVER_1 => 'api.siskom.cloud']];
+    private const ENVIRONMENT_MAP = [Environment::PRODUCTION => [Server::SERVER_1 => 'https://api.siskom.cloud']];
 }
