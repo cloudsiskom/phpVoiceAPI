@@ -20,14 +20,14 @@ $queueController = $client->getQueueController();
 # Queue New
 
 RING_STRATEGY :
-
-\*   ringall: ring all available channels until one answers (default)
-\*   roundrobin: take turns ringing each available interface (deprecated in 1.4, use rrmemory)
-\*   leastrecent: ring interface which was least recently called by this queue
-\*   fewestcalls: ring the one with fewest completed calls from this queue
-\*   random: ring random interface
-\*   rrmemory: round robin with memory, remember where we left off last ring pass
-
+<UL>
+  <li>ringall: ring all available channels until one answers (default)</li>
+  <li>roundrobin: take turns ringing each available interface</li>
+  <li>leastrecent: ring interface which was least recently called by this queue</li>
+  <li>fewestcalls: ring the one with fewest completed calls from this queue</li>
+  <li>random: ring random interface</li>
+  <li>rrmemory: round robin with memory, remember where we left off last ring pass</li>
+</UL>
 ```php
 function queueNew(QueueNewRequest $body): QueueNew
 ```
